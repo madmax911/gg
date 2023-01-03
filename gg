@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+(async () =>
+{
+  let [nodepath, jsfile, ...args] = process.argv;
+  let rslt = await fetch(`https://www.googleapis.com/customsearch/v1?q=${args.join(' ')}&num=8&cx=a138c85b6c7734c9c&key=AIzaSyBVe5XDfv2WxMVOUD8SOb5gun7WInH4zSI`).then(res => res.json());
+  console.log(rslt.items.reverse().map(v => `Title: ${v.title}\nSnippet: ${v.snippet}\nLink: ${v.link}\n\n`).join(''));
+})();
