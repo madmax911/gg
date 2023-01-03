@@ -9,17 +9,17 @@ gg your-search-text
 
 # Results:
 
-title #3
-Snippet text...
-URL
+Title:  result #3 title<br />
+Snippet:  result #3 summary text<br />
+Link:  result #3 url<br />
 
-title #2
-Snippet text...
-URL
+Title:  result #2 title<br />
+Snippet:  result #2 summary text<br />
+Link:  result #2 url<br />
 
-title #1
-Snippet text...
-URL
+Title:  result #1 title<br />
+Snippet:  result #1 summary text<br />
+Link:  result #1 url<br />
 
 Notice:  Results are in reverse order.  Because errrm... because I say so.
 
