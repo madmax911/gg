@@ -22,3 +22,5 @@ Snippet:  <result #1 summary text>
 Link:  <result #1 url>
 
 Notice:  Results are in reverse order.  Because errrm... because I say so.
+
+Requires:  NodeJS 17.5 or higher (because it uses fetch - I like fetch).
